@@ -9,8 +9,14 @@
 tupl = ("smit", "sonu", "prajapati")
 li = list(tupl)
 li[1] = "Ro"
+li.remove("smit")
 tupl = tuple(li)
 
 print(tupl)
 
+# You can not remove items from tuple so to do that we have to use upper method.
 
+
+#Tuple doesn't have many methods
+# count()	Returns the number of times a specified value occurs in a tuple
+# index()	Searches the tuple for a specified value and returns the position of where it was found
