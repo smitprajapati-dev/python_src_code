@@ -17,18 +17,47 @@ z = float(223.2)
 
 
 # You can write multiline string
-a = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
-print(a)
+# a = """Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua."""
+# print(a)
 
 # In triple quote you can wtite multiline comment
 
-a = '''Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua.'''
-print(a) # as well as you can write in three single quote 
+# a = '''Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua.'''
+# print(a) # as well as you can write in three single quote 
 
 
+# a = "Smit Prajapati is my full name"
+# print(a[1]) # string always start with 0 in most like every programming language
+
+# print("Prajapati" in a ) # You can find text from a string with the help of in
+
+
+# String Modification
+
+String = "HEy"
+
+print(String.upper())  # This will return all character from string to uppercase
+
+print(String.lower())  # This will return all character from string to lowercase
+ 
+# You can also replace world from string with replace()
+
+print(String.replace("E", "m"))
+
+# To split strin into two part you can use split()
+
+print(String.split("E"))
+
+
+# To combine a string and number we sometimes use f string
+
+so = "sonu"
+nt = 34
+vt = f"Hey this is combination of num {nt} and string {so} "
+print(vt)
