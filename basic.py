@@ -51,7 +51,7 @@ print(String.lower())  # This will return all character from string to lowercase
 print(String.replace("E", "m"))
 
 # To split strin into two part you can use split()
-
+print("The length of the string is" , len(String))
 print(String.split("E"))
 
 
@@ -61,3 +61,7 @@ so = "sonu"
 nt = 34
 vt = f"Hey this is combination of num {nt} and string {so} "
 print(vt)
+
+print(9//4)
+
+print(5 + 4 - 7 + 3)
