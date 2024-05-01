@@ -43,10 +43,12 @@
 # list.sort(reverse = True) # it sorld reverse in decending order
 # print(list)
 
-list1 = [12,"smit", 11, "pint"]
-list2 = list1.copy() # with this you can copy the items of string
-print("this is list1 items", list1)
-print("This is list2 items",list2)
+# list1 = [12,"smit", 11, "pint"]
+# list2 = list1.copy() # with this you can copy the items of string
+# print("this is list1 items", list1)
+# print("This is list2 items",list2)
+# if "smit" in list1:
+#     print("Yes, its in list1")
 
 # append()	Adds an element at the end of the list
 # clear()	Removes all the elements from the list
