@@ -11,7 +11,18 @@ class Teacher:
     def printName(self):
         print(self.fName, self.lName)
     
+# class Student(Teacher):
+#     pass # We use pass when we don't want to pass any method or other values in class
+# x = Student("Smit", "Prajapati") # As we can see Student inherits all properties from Teacher
+# x.printName()
+# Python has super() keyword that will make the child(derived class) class inherit all the methods and properties from its parent(base class)
+
 class Student(Teacher):
-    pass # We use pass when we don't want to pass any method or other values in class
-x = Student("Smit", "Prajapati") # As we can see Student inherits all properties from Teacher
-x.printName()
+    def __init__(self, fName, lName, year):
+        super().__init__(fName, lName)
+        self.graduatinYear = year
+
+x = Student("Smit", "Prajapati", 2023)
+print(x.graduatinYear)
+
+print(x)
