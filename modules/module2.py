@@ -4,4 +4,3 @@ import module1 as so
 
 a = so.person1["name"]
 print(a)
-print(B319551)
