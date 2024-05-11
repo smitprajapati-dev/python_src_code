@@ -1,14 +1,12 @@
-
-bill = 0
+bill = 0 
 
 while(True):
-    x = input("Enter item price you want or You want to exit Enter q \n")
+    userInput = input("Enter the number or q to quit the calculation : ")
 
-    if (x !="q"):
-        bill = bill + int(x)
-        print(f"Your order total soffar is : {bill} ")
-
-    else:
-        print(f"You Total bill is : {bill}")
+    if(userInput.isnumeric()):
+        bill = bill + int(userInput)
+        print(f"At this point of bill is {bill} ")
+    elif (userInput == "q"):
+        print(f"Your total bill is: {bill}")
         print("Thanks for shopping")
         break;
