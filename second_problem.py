@@ -34,3 +34,10 @@ if __name__ == '__main__':
 # n = int(input("Enter you number"))
 # fac_base =str(math.factorial(n))
 # print(fac_base)
+
+
+# import math
+# number = int(input("Enter you Number: "))
+
+# result = math.factorial(number)
+# print(result)
